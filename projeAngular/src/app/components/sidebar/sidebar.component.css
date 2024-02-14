@@ -1,0 +1,81 @@
+.sidebar {
+    height: 800px;
+    width: 300px;
+    z-index: 2;
+    background-color: #fcfcfc;
+    overflow-x: hidden;
+}
+
+.sidebar .sidebar-body {}
+
+.sidebar .sidebar-body li i {
+    position: absolute;
+    top: 7px;
+    font-size: 18px;
+    color: #aeaeae;
+}
+
+.sidebar .sidebar-body ul.nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-inline-start: 20px;
+}
+
+.sidebar .sidebar-body li.nav-category {
+    font-size: 17px;
+    text-transform: capitalize;
+    margin: 10px 0 15px;
+    font-weight: 700;
+}
+
+.sidebar .sidebar-body li {
+    position: relative;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.sidebar .sidebar-body li a {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar .sidebar-body li a:hover {
+    color: #6045e2;
+}
+
+.sidebar .sidebar-body li a:after {
+    position: absolute;
+    content: "";
+    background-image: url("https://themelooks.net/demo/dashmin/html/assets/img/svg/plus.svg");
+    height: 12px;
+    top: 10px;
+    z-index: -1;
+}
+
+.hidden {
+    display: none;
+}
+
+.link-title {
+    font-size: 15px;
+    line-height: 1.466;
+    color: #727272;
+}
+
+.sub-item-plus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus-icon {
+    color: #727272;
+    font-size: 25px;
+    margin-right: 15%;
+}
+
+.link-title:hover {
+    color: #6045e2;
+}

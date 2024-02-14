@@ -1,0 +1,72 @@
+<div class="sidebar">
+    <nav class="sidebar ml-5">
+        <div class="sidebar-body">
+            <ul class="">
+                <li class="nav-category">Main</li>
+                <li><a href="#" class="flex">
+                        <div class="flex">
+                            <span class="link-title">Dashboard</span>
+                        </div>
+                    </a></li>
+                <li class="has-sub-item"><a href="#" (click)="toggleEcommerceSubmenu($event)">
+                        <div class="sub-item-plus">
+                            <span class="link-title">Ecommerce</span>
+                            <span class="plus-icon">+</span>
+                        </div>
+                    </a>
+                    <ul *ngIf="showEcommerceSubmenu" class="ml-5">
+                        <li><a href="#">Dashboard 1</a></li>
+                        <li><a href="#">dashboard 2</a></li>
+                        <li><a href="#">orders</a></li>
+                        <li><a href="#">Products Catalog</a></li>
+                        <li><a href="#">Product Details</a></li>
+                        <li><a href="#">cart list</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">
+                        <div class="flex">
+                            <span class="link-title">Social Media Analytics</span>
+
+                        </div>
+                    </a></li>
+                <li class="nav-category">apps</li>
+                <li class="has-sub-item"><a href="#" (click)="toggleEmailSubmenu($event)">
+                        <div class="sub-item-plus">
+                            <span class="link-title">Email</span>
+                            <span class="plus-icon">+</span>
+                        </div>
+                    </a>
+                    <ul *ngIf="showEmailSubmenu" class="ml-5">
+                        <li><a href="#">Inbox</a></li>
+                        <li><a href="#">Read</a></li>
+                        <li><a href="#">Compose</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">
+                        <div class="flex">
+                            <span class="link-title">Chat</span>
+                        </div>
+                    </a></li>
+                <li class="has-sub-item"><a href="#" (click)="toggleToDoListSubmenu($event)">
+                        <div class="sub-item-plus">
+                            <span class="link-title">To Do List</span>
+                            <span class="plus-icon">+</span>
+                        </div>
+                    </a>
+                    <ul *ngIf="showToDoListSubmenu" class="ml-5">
+                        <li><a href="#">Tasks</a></li>
+                        <li><a href="#">add new</a></li>
+                        <li><a href="#">details</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">
+                        <div class="sub-item-plus">
+                            <span class="link-title">Calendar</span>
+                        </div>
+                    </a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+</div>

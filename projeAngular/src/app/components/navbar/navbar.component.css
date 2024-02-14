@@ -1,0 +1,71 @@
+.navbar {
+    margin-top: -10px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-info {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.user-name {
+    margin-bottom: 6px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.user-email {
+    font-size: 14px;
+    color: #aeaeae;
+}
+
+.navbar-right {
+    width: 72%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.langauge {
+    margin-inline: 15px;
+}
+
+.date {
+    text-align: right;
+    margin-inline: 40px;
+}
+
+.hour {
+    margin-bottom: -5px;
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+
+.day {
+    color: #727272;
+    font-size: 14px;
+}
+
+.searchIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: #f5f5f5;
+}
+
+.searchIcon:hover {
+    background-color: #dbdbff;
+}
